@@ -1,6 +1,19 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+/*For Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+/* Medium devices (desktops, 992px and up)*/
+@media (min-width: @screen-md-min) {
+
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
+
 body {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -28,13 +41,15 @@ body {
 }
 
 .video {
-  float: left;
+  /*float: left;*/
   /*margin: auto;*/
+  /*width: 200%;
+  height: 100%;*/
   padding-top: 3%;
 }
 
 #description {
-  font-size: 27px;
+  font-size: 24px;
   display: block;
   padding: 2%;
   color: white;
