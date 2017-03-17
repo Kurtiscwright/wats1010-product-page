@@ -50,6 +50,15 @@ body {
   padding-bottom: 3%;
 }
 
+/*#features {
+  text-align: center;
+}*/
+
+#sPoints {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 #description {
   font-size: 24px;
   display: block;
@@ -59,6 +68,5 @@ body {
 }
 
 #testimonials {
-  float: left;
   border: 5%;
 }
