@@ -38,25 +38,8 @@ body {
 
 .vid-para {
   background-color: #009999;
-  /*float: right;*/
-}
-
-.video {
-  /*float: left;*/
-  /*margin: auto;*/
-  /*width: 200%;
-  height: 100%;*/
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-/*#features {
-  text-align: center;
-}*/
-
-#sPoints {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 20%;
+  padding-bottom: 15%;
 }
 
 #description {
@@ -67,6 +50,23 @@ body {
   text-shadow: 2px 2px black;
 }
 
+
 #testimonials {
   border: 5%;
+}
+
+.sPoints {
+  background-image: url(travel.jpg);
+  padding-top: 10%;
+  padding-bottom: 15%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.links {
+  background-image: url("nasa.jpg");
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+  text-shadow: 2px 2px black;
 }
